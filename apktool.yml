@@ -1,0 +1,21 @@
+version: 2.12.1
+apkFileName: magistv-ultima-version.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 42401
+  versionName: 4.24.1
+doNotCompress:
+- arsc
+- jpg
+- png
+- webp
+- META-INF/com.android.tools.metadata/drm/com.google.play/metadata.bin
+- META-INF/com.android.tools.metadata/drm/com.oppo.market/metadata.bin
+- assets/ijiami.dat
